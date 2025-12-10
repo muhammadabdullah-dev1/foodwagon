@@ -52,7 +52,7 @@ html{
     
     font-weight: 400;
 }
-.del-add>bos{
+.del-add>but{
     font-size: 1.8rem;
     font-weight: 700px;
 }
@@ -64,12 +64,12 @@ html{
 
 }
 .left-sec{
-    padding: 132px 60px 0px ;
+    padding: 152px 60px 0px ;
     
    
 }
 .left-sec > .star-heading > h1{
-    font-size: 8.8rem;
+    font-size: 7.8rem;
     color: #FFFFFF;
 }
 .left-sec > .star-heading >p{
@@ -83,6 +83,7 @@ html{
     background-color: #FFFFFF;
     margin-top: 20px;
     border-radius: 8px;
+    
 }
 .order-card> .top{
     display: flex;
@@ -108,4 +109,28 @@ html{
 .bottom {
     display: flex;
     padding: 24px;
+    gap: 20px;
+}
+.bottom > .text input{
+    padding: 10px 100px ;
+    background-color: #F5F5F5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+.bottom > .but> button{
+    padding: 14px 48px;
+  background: linear-gradient(to right,#FF7A7A,#F65900);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+
+}
+.right-sec > img{
+    width: 70%;
+    margin: 200px 100px;
+
 }
