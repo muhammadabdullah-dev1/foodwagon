@@ -1,0 +1,111 @@
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.2%;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo> h1{
+    font-size: 2.7rem;
+    padding-left: 2px;
+}
+.del-add{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+    
+}
+.del-add >.current{
+    font-size: 1.8rem;
+    
+    font-weight: 400;
+}
+.del-add>bos{
+    font-size: 1.8rem;
+    font-weight: 700px;
+}
+.header{
+    background-image:url(/assets/images/67024c56ad42b6be9069aba3dcabc05b4b387176\ \(1\).png);
+    height: 620px;
+    display: flex;
+    max-width: 1920px;
+
+}
+.left-sec{
+    padding: 132px 60px 0px ;
+    
+   
+}
+.left-sec > .star-heading > h1{
+    font-size: 8.8rem;
+    color: #FFFFFF;
+}
+.left-sec > .star-heading >p{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #504F4F;
+}
+
+
+ .order-card {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.order-card> .top{
+    display: flex;
+    padding: 24px;
+    gap: 8px;
+    
+}
+.top > .tab1{
+    background-color: #F172281A;
+    padding: 10px 24px;
+}
+.top > .tab1 h1{
+    color: #F17228;
+    font-size: 1.5rem;
+}
+.top > .tab2{
+    padding: 10px 24px;
+}
+.top > .tab2 h1{
+    color: #757575;
+    font-size: 1.5rem;
+}
+.bottom {
+    display: flex;
+    padding: 24px;
+}
