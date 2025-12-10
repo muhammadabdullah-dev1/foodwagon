@@ -134,3 +134,55 @@ html{
     margin: 200px 100px;
 
 }
+.flash-deals{
+    padding: 70px 150px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.flash-card > .image> img{
+    width: 100%;
+    border-radius: 16px;
+}
+.image{
+    position: relative;
+}
+ .image> .discount {
+    display: flex;
+    position: absolute;
+    background-color: #FFB30E;
+    padding: 6px 20px;
+    bottom: 2px;
+     color: white;
+    font-weight: bold;
+    border-radius: 0px 16px;
+    text-align: center;
+    gap: 6px;
+}
+.image> .discount > .text >h1{
+    font-size: 5.8rem;
+}
+.discount>  .percentage{
+    text-align: center;
+     font-size: 2.3rem;
+     font-weight:400 ;
+}
+.discount>  .percentage >.per{
+    font-weight: 700;
+}
+.badge{
+    
+}
+.badge>h1{
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.badge > .orn-text{
+    margin-top:5px ;
+    background-color: #F1722833;
+    padding: 4px 0px;
+    color: #F17228;
+    margin-right: 50px;
+    padding: 8px; ;
+}
