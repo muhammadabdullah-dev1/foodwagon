@@ -347,10 +347,12 @@ html{
  .but1{
    display: block;
     margin: 0 auto;
+    margin-top: 20px;
     padding: 16px 40px;
      border: none;
      background-color: #FF9A0E;
      color: #ffffff;
+     border-radius: 8px;
 }
 .search-by{
     background-color: #fff8ea;
@@ -358,7 +360,7 @@ html{
  .header1{
     display: flex;
     justify-content: space-between;
-    padding: 170px;
+    padding:60px 170px;
  }
  .heading{
     font-size: 2rem;
@@ -367,8 +369,9 @@ html{
     gap: 20px;
   }
  .button2 > button{
-    padding: 20px 25px; 
+    padding: 10px 20px; 
     border-radius: 92px;
+    font-weight: 900;
     border: none;
     background-color: #FFB30E;
     color: #ffffff;
@@ -388,6 +391,57 @@ html{
     margin: 0 auto;
     border-radius: 150px;
 }
-.child-items> h1{
+.child-items > h1{
     text-align: center;
+    padding-bottom: 50px;
+}
+.feature-2{
+    background-color: #feefd0;
+    padding: 70px;
+    border-right: 2px solid;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.feature-2 > .card{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    
+}
+
+.app-dow{
+    background-image: url(/assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-color: #ffaf01;
+    padding: 1px 50px 0px 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    margin-top: 100px;
+}
+.images > .imagee{
+    width: 40%;
+   
+
+}
+ .text >h1{
+    font-size: 6rem;
+    color: #FFB800;
+}
+.buttonk{
+    
 }
