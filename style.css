@@ -163,8 +163,9 @@ html{
     text-align: center;
     gap: 6px;
 }
-.image> .discount > .text >h1{
+.image> .discount > .text > .num{
     font-size: 5.8rem;
+    color: #ffffff;
 }
 .discount>  .percentage{
     text-align: center;
@@ -214,7 +215,7 @@ html{
     margin: 0 auto;
 }
 
- .text > h1{
+ .text > .sel{
     margin-top: 10px;
     color: #434343;
     font-size: 2.2rem;
@@ -481,12 +482,12 @@ html{
 } */
 .detail {
     background: #f9f9f9;
-    padding: 60px 0;
+    padding-top: 6px;
 }
 
 .details {
     max-width: 1200px;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     align-items: center;
     background: #fff;
@@ -501,13 +502,13 @@ html{
     padding: 70px;
 }
 
-.left-side h1 {
+.left-side > h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.left-side h1 span {
+.left-side > h1 >span {
     color: #f7a600;
 }
 
@@ -519,7 +520,7 @@ html{
 }
 
 /* BUTTON */
-.left-side button {
+.left-side > button {
     background: #f7a600;
     color: #fff;
     border: none;
@@ -530,9 +531,7 @@ html{
     text-transform: uppercase;
 }
 
-.left-side button:hover {
-    background: #e69500;
-}
+
 
 /* RIGHT SIDE */
 .right-side {
@@ -540,8 +539,88 @@ html{
     height: 100%;
 }
 
-.right-side img {
+.right-side > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.cta-footer{
+     background-image: url(/assets/images/cta.png);
+     background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    height: 400px;
+    margin: 60px 0px   
+    
+    
+}
+.cta{
+   text-align: center;
+}
+.cta > h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.cta > button{
+    background-color: #f16128;
+    border: none;
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 21px 40px;
+    border-radius: 8px;
+}
+.footer{
+    background-color: #212121;
+    color: #ffffff;
+    padding: 50px;
+}
+.top1{
+    padding: 20px 0px;
+}
+.top1 >h1{
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.cities{
+    display: flex;
+    justify-content: space-between;
+}
+.cities >ul{
+    list-style: none;
+}
+.cities> ul >li{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.bottom2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.bottom2 h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.city ul{
+    list-style: none;
+}
+.city ul li{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
 }
